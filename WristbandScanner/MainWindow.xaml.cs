@@ -37,7 +37,7 @@ namespace WristbandScanner
             string surname = tbSurname.Text;
             string jobTitle = tbJobTitle.Text;
             string trust = tbTrust.Text;
-            string interests = tbInterests.Text;
+            string interests = '"' + tbInterests.Text + '"';
             bool? followUpCall = cbFollowUpCall.IsChecked;
             bool? followUpVisit = cbFollowUpVisit.IsChecked;
             string phoneNumber = tbPhoneNumber.Text;

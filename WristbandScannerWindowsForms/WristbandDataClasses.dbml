@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Wristbands" Class="WristbandDataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=CD-HP-LAPTOP\SQLEXPRESS;Initial Catalog=Wristbands;Integrated Security=True" SettingsObjectName="WristbandScannerWindowsForms.Properties.Settings" SettingsPropertyName="WristbandsConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Wristband" Member="Wristbands">
+    <Type Name="Wristband">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Trust" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="GLNNumber" Type="System.String" DbType="NChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Function Name="dbo.GetWristbandData" Method="GetWristbandData">
+    <Parameter Name="GLNNumber" Parameter="gLNNumber" Type="System.String" DbType="NChar(50)" />
+    <ElementType Name="GetWristbandDataResult">
+      <Column Name="FirstName" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="JobTitle" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+      <Column Name="Trust" Type="System.String" DbType="NChar(50)" CanBeNull="true" />
+    </ElementType>
+  </Function>
+</Database>

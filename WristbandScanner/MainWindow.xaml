@@ -31,9 +31,9 @@
         <Label Content="Email Address" HorizontalAlignment="Left" Margin="10,339,0,0" VerticalAlignment="Top"/>
         <TextBox Name="tbPhoneNumber" HorizontalAlignment="Left" Height="23" Margin="125,312,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263"/>
         <TextBox Name="tbEmailAddress" HorizontalAlignment="Left" Height="23" Margin="125,340,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="263"/>
-        <Button Name="SaveButton" Content="Save" HorizontalAlignment="Left" Margin="64,391,0,0" VerticalAlignment="Top" Width="75" Click="SaveButton_Click"/>
-        <Button Name="CancelButton" Content="Cancel" HorizontalAlignment="Left" Margin="220,391,0,0" VerticalAlignment="Top" Width="75" Click="CancelButton_Click"/>
-        <Button Name="ExitButton" Content="Exit" HorizontalAlignment="Left" Margin="388,391,0,0" VerticalAlignment="Top" Width="75" Click="ExitButton_Click"/>
+        <Button Name="SaveButton" Style="{StaticResource AccentedSquareButtonStyle}" Content="Save" HorizontalAlignment="Left" Margin="64,391,0,0" VerticalAlignment="Top" Width="75" Click="SaveButton_Click"/>
+        <Button Name="CancelButton" Style="{StaticResource AccentedSquareButtonStyle}" Content="Cancel" HorizontalAlignment="Left" Margin="220,391,0,0" VerticalAlignment="Top" Width="75" Click="CancelButton_Click"/>
+        <Button Name="ExitButton" Style="{StaticResource AccentedSquareButtonStyle}" Content="Exit" HorizontalAlignment="Left" Margin="388,391,0,0" VerticalAlignment="Top" Width="75" Click="ExitButton_Click"/>
         <Image Name="DakotaLogo" HorizontalAlignment="Left" Height="100" Margin="417,0,0,0" VerticalAlignment="Top" Width="100"/>
     </Grid>
 </controls:MetroWindow>

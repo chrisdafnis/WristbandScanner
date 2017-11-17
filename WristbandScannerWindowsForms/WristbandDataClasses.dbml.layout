@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="WristbandDataClasses">
+  <DataContextMoniker Name="/WristbandDataClassesDataContext" />
+  <nestedChildShapes>
+    <classShape Id="68438340-48f2-47cf-a9df-4db00e79e4eb" absoluteBounds="3.25, 2.125, 2, 1.9631982421875">
+      <DataClassMoniker Name="/WristbandDataClassesDataContext/Wristband" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2647d0f6-768f-4c45-a642-a3304cdfa7be" absoluteBounds="3.265, 2.585, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
